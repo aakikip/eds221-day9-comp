@@ -15,3 +15,4 @@ ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
         panel.grid.major = element_line(color = "purple"),
         axis.text = element_text(color = "red"),
         axis.title = element_text(color = "green"))
+
