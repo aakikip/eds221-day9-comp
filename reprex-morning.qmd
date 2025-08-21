@@ -1,0 +1,9 @@
+---
+title: "reprex-morning"
+format: html
+editor: visual
+---
+
+```{r}
+total_annual_gg <- read_csv(here::here("data", "San_Francisco_Communitywide_Greenhouse_Gas_Inventory.csv")) |> clean_names()
+```
